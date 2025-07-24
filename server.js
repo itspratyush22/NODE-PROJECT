@@ -9,12 +9,8 @@ dotenv.config();
 const app = express();
 app.use(express.json()); // 
 
-// Routes
 app.use('/api/articles', articleRoutes);
-;  // already working
 app.use('/api/users', userRoutes);       
-
-// Connect to MongoDB
 mongoose.connect(process.env.MONGO_URI)
   .then(() => {
     console.log('MongoDB connected');
@@ -23,8 +19,6 @@ mongoose.connect(process.env.MONGO_URI)
     console.error('MongoDB connection error:', err);
   });
 
-
-// Start server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
