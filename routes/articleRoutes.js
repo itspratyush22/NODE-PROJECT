@@ -1,4 +1,3 @@
-// routes/articleRoutes.js
 const express = require('express');
 const router = express.Router();
 const {
@@ -6,7 +5,7 @@ const {
   likeArticle,
   viewArticle,
   getPopularArticles,
-  getMostLikedArticles, // ✅
+  getMostLikedArticles, 
 } = require('../controllers/articleController');
 
 router.post('/create', createArticle);
@@ -17,6 +16,5 @@ router.get('/most-liked', getMostLikedArticles);
 router.get('/test', (req, res) => {
     res.send('Test route works');
   });
-   // ✅
 
 module.exports = router;
