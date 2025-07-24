@@ -4,18 +4,18 @@ This is a full-featured backend application built using **Node.js**, **MongoDB**
 
 ---
 
-## 📌 Features
+## Features
 
-- ✅ Create and manage articles
-- 👍 Like and view articles
-- 📊 Track and display most popular and most liked articles
-- 🧠 Uses Redis for caching likes and views (improves performance)
-- 🔔 Notification system when an article is liked
-- 📦 Clean API structure with separate routes and controllers
+- Create and manage articles
+- Like and view articles
+- Track and display most popular and most liked articles
+- Uses Redis for caching likes and views (improves performance)
+- Notification system when an article is liked
+- Clean API structure with separate routes and controllers
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 - **Node.js**
 - **Express.js**
@@ -25,9 +25,9 @@ This is a full-featured backend application built using **Node.js**, **MongoDB**
 
 ---
 
-## 🧑‍💻 API Endpoints
+## API Endpoints
 
-### 🔹 Articles
+### Articles
 
 | Method | Endpoint                    | Description                    |
 |--------|-----------------------------|--------------------------------|
@@ -40,7 +40,7 @@ This is a full-featured backend application built using **Node.js**, **MongoDB**
 
 ---
 
-### 🔹 Users
+### Users
 
 | Method | Endpoint            | Description         |
 |--------|---------------------|---------------------|
@@ -48,7 +48,7 @@ This is a full-featured backend application built using **Node.js**, **MongoDB**
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 1. **Clone the repository**
 
