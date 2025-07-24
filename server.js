@@ -7,12 +7,12 @@ const userRoutes = require('./routes/userRoutes');
 dotenv.config();
 
 const app = express();
-app.use(express.json()); // ✅ Important for JSON parsing
+app.use(express.json()); // 
 
 // Routes
 app.use('/api/articles', articleRoutes);
 ;  // already working
-app.use('/api/users', userRoutes);        // ✅ ADD THIS if missing
+app.use('/api/users', userRoutes);       
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGO_URI)
