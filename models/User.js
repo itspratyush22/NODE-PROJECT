@@ -4,4 +4,4 @@ const userSchema = new mongoose.Schema({
   name: String
 }, { timestamps: true });
 
-module.exports = mongoose.model('User', userSchema); // ✅ no route logic here
+module.exports = mongoose.model('User', userSchema); 
