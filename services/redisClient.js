@@ -3,7 +3,7 @@ const { createClient } = require('redis');
 const redisClient = createClient();
 
 redisClient.on('connect', () => {
-  console.log('🔌 Redis client connected');
+  console.log('Redis client connected');
 });
 
 redisClient.on('error', (err) => {
